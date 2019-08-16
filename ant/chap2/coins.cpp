@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdlib.h>
 using namespace std;
 
 int A;                              //支払額
@@ -35,4 +34,4 @@ int main()
 各硬貨の枚数 C_1, c_5, C_10, C_50, C_100, C_500
 620
 3 2 1 3 0 2 
- */
+*/
