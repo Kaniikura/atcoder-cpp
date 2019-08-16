@@ -70,6 +70,7 @@ int main()
             {
                 sx = i, sy = j;
             }
+            // ゴール地点
             else if (maze[i][j] == 'G')
             {
                 gx = i, gy = j;
