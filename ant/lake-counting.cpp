@@ -3,7 +3,7 @@ using namespace std;
 
 static const int MAX_N = 100;
 static const int MAX_M = 100;
-char field[MAX_N][MAX_M];
+char field[MAX_N][MAX_M + 1];
 int n, m;
 
 void dfs(int x, int y)

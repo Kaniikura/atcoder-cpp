@@ -7,7 +7,7 @@ static const int MAX_N = 100;
 static const int MAX_M = 100;
 
 typedef pair<int, int> P;                         //位置
-char maze[MAX_N][MAX_M];                          //迷路
+char maze[MAX_N][MAX_M + 1];                      //迷路
 int n, m;                                         //迷路のサイズ
 int sx, sy;                                       //スタート地点
 int gx, gy;                                       //ゴール地点
