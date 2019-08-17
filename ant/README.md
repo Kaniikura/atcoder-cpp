@@ -1,5 +1,5 @@
 [蟻本](https://www.amazon.co.jp/dp/B00CY9256C/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)の写経に入出力を補完したコードです
-## 第一章
+## 第１章
 * [三角形 p.21](chap1/triangle.cpp)
 * [Ants (POJ No.1852) p.23](chap1/ants.cpp)
 * [ハードルが上がったくじ引き p.25](chap1/lottery.cpp)
