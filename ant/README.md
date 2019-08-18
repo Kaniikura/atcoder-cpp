@@ -16,3 +16,14 @@
 * [Saruman's Army (POJ 3069) p.47](chap2/sarumans-army.cpp)
 * [Fence Repair (POJ 3253) p.49](chap2/fence-repair.cpp)
 ### 値を覚えて再利用”動的計画法”
+* 01ナップサック問題 p.52
+  * [メモ化 p.53](chap2/memo-knapsack.cpp) 
+  * [漸化式 p.54](chap2/rr-knapsack.cpp)
+* [最長共通部分列問題 p.56](chap2/LCS.cpp)
+* [個数制限なしナップサック問題 p.58](chap2/no-limit-knapsack.cpp)
+* [01ナップサック問題その２ p.60](chap2/part2-knapsack.cpp)
+* [個数制限つき部分和問題 p.62](chap2/limited-partial-sum.cpp)
+* [最長増加部分列問題 p.63](chap2/LIS.cpp)
+* [分割数 p.66](chap2/partition-numbers.cpp)
+* [重複組み合わせ p.67](chap2/combination-with-repetition.cpp)
+### データを工夫して記憶する”データ構造”
