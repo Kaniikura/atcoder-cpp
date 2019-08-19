@@ -14,7 +14,7 @@
 * [区間の問題 p.43](chap2/scheduling.cpp)
 * [Best Cow Line (POJ 3617) p.45](chap2/best-cow-line.cpp)
 * [Saruman's Army (POJ 3069) p.47](chap2/sarumans-army.cpp)
-* [Fence Repair (POJ 3253) p.49](chap2/fence-repair.cpp)
+* [Fence Repair (PKU 3253) p.49](chap2/fence-repair.cpp)
 ### 値を覚えて再利用”動的計画法”
 * 01ナップサック問題 p.52
   * [メモ化 p.53](chap2/memo-knapsack.cpp) 
@@ -27,3 +27,5 @@
 * [分割数 p.66](chap2/partition-numbers.cpp)
 * [重複組み合わせ p.67](chap2/combination-with-repetition.cpp)
 ### データを工夫して記憶する”データ構造”
+* [Expedition (POJ 2431) p.73](chap2/expedition.cpp)
+* [Fence Repair (PKU 3253) p.75](chap2/queue-fence-repair.cpp)
