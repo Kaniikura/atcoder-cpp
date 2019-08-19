@@ -1,7 +1,4 @@
 #include <iostream>
-#include <queue>
-#include <algorithm>
-#include <string>
 #define MAX_K 100000
 #define MAX_N 50000
 using namespace std;
