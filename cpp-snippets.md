@@ -1,7 +1,7 @@
 # c++のためのスニペット集
 ## 入出力系
 グローバル変数で定義してmainで読み込むやり方が便利<br>
-すべてのコードは`#include <iostream>`を省略している
+すべてのコードは`#include <iostream>`および`using namespace std;`を省略している
 ### 入力
 #### 整数
 1文字
@@ -39,7 +39,6 @@ int main(){
 ```
 stringを使うver
 ```c++
-using namespace std;
 string s;
 int main(){
   cin >> s;
@@ -65,7 +64,6 @@ cout << res << "\n";
 高速化その３ stdioをつかう
 ```c++
 #include <cstdio>
-using namespace std;
 int main() {
 	int n;
 	scanf("%d", &n);
