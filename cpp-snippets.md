@@ -13,8 +13,9 @@ int main{
 ```
 要素数を指定して1行で読み込む
 ```c++
+#define MAX_N 100000
 int n;
-int *a = new int[n];
+int a[MAX_N];
 
 int main(){
    cin >> n;
@@ -28,8 +29,9 @@ int main(){
 #### 文字列
 要素数を指定して読み込む
 ```c++
+#define MAX_S 10
 int n;
-char *s = new char[n + 1]; //null文字用に1つ長くとる
+char s[MAX_S + 1]; //null文字用に1つ長くとる
 
 int main(){
   cin >> n;
