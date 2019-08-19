@@ -1,5 +1,12 @@
 AtCoderの過去問解答集
 ## AtCoder Beginner Contest
+* [138](138)
+  - [x] [A. Red or Not](138/a.cpp)
+  - [x] [B. Resistors in Parallel](138/b.cpp)
+  - [x] [C. Alchemist](138/c.cpp)
+  - [ ] [D. Ki]()
+  - [ ] [E. Strings of Impurity]()
+  - [ ] [F. Coincidence]()
 * [137](137)
   - [x] [A. +-x](137/a.cpp)
   - [x] [B. One Clue](137/b.cpp)
