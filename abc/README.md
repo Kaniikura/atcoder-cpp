@@ -28,3 +28,11 @@ AtCoderの過去問解答集
   - [ ] [D. Digits Parade]()
   - [ ] [E. Golf]()
   - [ ] [F. Strings of Eternity]()
+  * [134](134)
+  - [x] [A. Dodecagon](134/a.cpp)
+  - [x] [B. Golden Apple](134/b.cpp)
+  - [x] [C. Exception Handling](134/c.cpp)
+  - [ ] [D. Preparing Boxes]()
+  - [ ] [E. Sequence Decomposing]()
+  - [ ] [F. Permutation Oddness]()
+
