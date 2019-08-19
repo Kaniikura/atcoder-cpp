@@ -27,7 +27,6 @@ int main(){
 ```
 
 #### 文字列
-要素数を指定して読み込む
 ```c++
 #define MAX_S 10
 int n;
