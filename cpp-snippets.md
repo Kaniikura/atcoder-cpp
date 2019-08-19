@@ -1,7 +1,7 @@
 # c++のためのスニペット集
 ## 入出力系
 グローバル変数で定義してmainで読み込むやり方が便利<br>
-すべてのコードは先頭の`#include <iostream>`を省略している
+すべてのコードは`#include <iostream>`を省略している
 ### 入力
 #### 整数
 1文字
@@ -51,4 +51,24 @@ int main(){
 ```c++
 double res = 0.123456789012345;
 cout << setprecision(10) << res << endl; //精度10桁で出力 -> 0.123456789 
+```
+### 入出力の速度に困ったら
+高速化その１ おまじないを書く
+```c++
+cin.tie(0);
+ios::sync_with_stdio(false);
+```
+高速化その２ endlの代わりに改行文字を使う
+```c++
+cout << res << "\n";
+```
+高速化その３ stdioをつかう
+```c++
+#include <cstdio>
+using namespace std;
+int main() {
+	int n;
+	scanf("%d", &n);
+	printf("%d\n", n);
+}
 ```
