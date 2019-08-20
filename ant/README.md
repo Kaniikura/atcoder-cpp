@@ -31,3 +31,4 @@
 * [Fence Repair (PKU 3253) p.75](chap2/queue-fence-repair.cpp)
 * [食物連鎖 (POJ 1182) p.85](chap2/food-chain.cpp)
 ### あれもこれも実は”グラフ”
+* [二部グラフ判定 p.93](chap2/judge-bipartite-graph.cpp)
