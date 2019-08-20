@@ -35,4 +35,11 @@ AtCoderの過去問解答集
   - [ ] [D. Preparing Boxes]()
   - [ ] [E. Sequence Decomposing]()
   - [ ] [F. Permutation Oddness]()
+* [133](133)
+  - [x] [A. T or T](133/a.cpp)
+  - [x] [B. Good Distance](133/b.cpp)
+  - [x] [C. Remainder Minimization 2019](133/c.cpp)
+  - [ ] [D. Rain Flows into Dams]()
+  - [ ] [E. Virus Tree 2]()
+  - [ ] [F. Colorful Tree]()
 
