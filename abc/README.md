@@ -1,7 +1,7 @@
 AtCoderの過去問解答集
 ## AtCoder Beginner Contest
 ### 索引 
-[133](#133), [134](#134), [135](#135), [136](#136), [137](#137), [138](#138), [140](#140)
+[133](#133), [134](#134), [135](#135), [136](#136), [137](#137), [138](#138), [139](#139), [140](#140)
 #### [140](140)
   - [x] [A. Password](140/a.cpp)
   - [x] [B. Buffet](140/b.cpp)
@@ -9,6 +9,13 @@ AtCoderの過去問解答集
   - [x] [D. Face Produces Unhappiness](140/d.cpp)
   - [ ] [E. Second Sum]()
   - [ ] [F. Many Slimes]()
+#### [139](139)
+  - [x] [A. Tenki](139/a.cpp)
+  - [x] [B. Power Socket](139/b.cpp)
+  - [x] [C. Lower](139/c.cpp)
+  - [x] [D. ModSum](139/d.cpp)
+  - [ ] [E. League]()
+  - [ ] [F. Engines]()
 #### [138](138)
   - [x] [A. Red or Not](138/a.cpp)
   - [x] [B. Resistors in Parallel](138/b.cpp)
