@@ -9,9 +9,7 @@ string s;
 
 void solve()
 {
-    int l_cnt = 0;
-    int r_cnt = 0;
-    char pre = 'c';
+    char pre = 'c'; //ダミー文字
     int ans = 0;
     for (int i = 0; i < n; i++)
     {
