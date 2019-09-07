@@ -6,7 +6,7 @@ AtCoderの過去問解答集
   - [x] [A. Password](140/a.cpp)
   - [x] [B. Buffet](140/b.cpp)
   - [x] [C. Maximal Value](140/c.cpp)
-  - [x] [D. Face Produces Unhappiness]()
+  - [x] [D. Face Produces Unhappiness](140/d.cpp)
   - [ ] [E. Second Sum]()
   - [ ] [F. Many Slimes]()
 #### [138](138)
