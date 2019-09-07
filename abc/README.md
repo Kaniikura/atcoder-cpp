@@ -1,7 +1,14 @@
 AtCoderの過去問解答集
 ## AtCoder Beginner Contest
 ### 索引 
-[133](#133), [134](#134), [135](#135), [136](#136), [137](#137), [138](#138)
+[133](#133), [134](#134), [135](#135), [136](#136), [137](#137), [138](#138), [140](#140)
+#### [140](140)
+  - [x] [A. Password](140/a.cpp)
+  - [x] [B. Buffet](140/b.cpp)
+  - [x] [C. Maximal Value](140/c.cpp)
+  - [x] [D. Face Produces Unhappiness]()
+  - [ ] [E. Second Sum]()
+  - [ ] [F. Many Slimes]()
 #### [138](138)
   - [x] [A. Red or Not](138/a.cpp)
   - [x] [B. Resistors in Parallel](138/b.cpp)
