@@ -33,4 +33,7 @@
 ### あれもこれも実は”グラフ”
 * [二部グラフ判定 p.93](chap2/judge-bipartite-graph.cpp)
 * [ベルマンフォード法 p.95](chap2/bellman-ford.cpp)
-* [ダイクストラ法 p.96](chap2/dijkstra-algorithm.cpp)
+* ダイクストラ法 p.96
+  * [隣接行列 p.96](chap2/dijkstra-algorithm.cpp)
+  * [ヒープ p.97](chap2/dijkstra-algorithm-queue.cpp)
+* [ワーシャル-フロイド法 p.98](chap2/warshall-floyd.cpp)
