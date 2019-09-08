@@ -20,9 +20,9 @@ void shortest_path(int v)
 {
     for (int i = 0; i < V; i++)
     {
-        d[i] = INF;
+        d[i] = INF; //初期化
     }
-    d[v] = 0;
+    d[v] = 0; //始点は0で初期化
     while (true)
     {
         bool update = false;
