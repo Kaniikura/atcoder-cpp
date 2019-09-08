@@ -32,3 +32,5 @@
 * [食物連鎖 (POJ 1182) p.85](chap2/food-chain.cpp)
 ### あれもこれも実は”グラフ”
 * [二部グラフ判定 p.93](chap2/judge-bipartite-graph.cpp)
+* [ベルマンフォード法 p.95](chap2/bellman-ford.cpp)
+* [ダイクストラ法 p.96](chap2/dijkstra-algorithm.cpp)
