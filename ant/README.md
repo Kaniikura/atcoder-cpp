@@ -40,3 +40,4 @@
 * [経路復元 p.98](chap2/dijkstra-keep-track.cpp)
 * 最小全域木 p.99
   * [プリム法 p.100](chap2/prim-algorithm.cpp)
+  * [クラスカル法 p.101](chap2/kruskal-algorithm.cpp)
