@@ -10,7 +10,7 @@ int mincost[MAX_V];               //集合Xからの辺の最小コスト
 bool used[MAX_V];                 //頂点iがXに含まれているか
 int s[MAX_E], t[MAX_E], c[MAX_E]; //入力用
 
-//s番目の頂点から各頂点への最短距離を求める
+// 最小全域木のコストを求める
 int prim()
 {
     for (int i = 0; i < V; i++)
@@ -88,6 +88,5 @@ int main()
 3 6 5
 4 5 5
 5 6 8
-
 答え 17
 */
