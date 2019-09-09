@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 #define MAX_V 1000
 #define MAX_E 10000
 #define INF 10000000
@@ -9,15 +10,17 @@ int E;                            //エッジ数
 int cost[MAX_V][MAX_V];           //辺のコスト
 int d[MAX_V];                     //頂点からの最短距離
 bool used[MAX_V];                 //すでに使ったことがあるかのフラグ
+int preb[MAX_V];                  //最短路における直前の頂点
 int s[MAX_E], t[MAX_E], c[MAX_E]; //入力用
 
 //s番目の頂点から各頂点への最短距離を求める
-void dijkstra(int s)
+void dijkstra_keep_track(int s)
 {
     fill(d, d + V, INF);
     fill(used, used + V, false);
-
+    fill(preb, preb + V, -1);
     d[s] = 0; //始点は0で初期化
+
     while (true)
     {
         int v = -1;
@@ -38,9 +41,23 @@ void dijkstra(int s)
 
         for (int u = 0; u < V; u++)
         {
-            d[u] = min(d[u], d[v] + cost[v][u]);
+            if (d[u] > d[v] + cost[v][u])
+            {
+                d[u] = d[v] + cost[v][u];
+                preb[u] = v;
+            }
         }
     }
+}
+
+vector<int> get_path(int t)
+{
+    vector<int> path;
+    for (; t != -1; t = preb[t]) //tがsになるまでprev[t]を辿っていく
+        path.push_back(t);
+    // このままだとt->sの順になっているので逆にする
+    reverse(path.begin(), path.end());
+    return path;
 }
 
 void solve()
@@ -60,8 +77,11 @@ void solve()
     }
 
     // 例として点Aから点Gへの最短距離を求める
-    dijkstra(0);
-    cout << d[V - 1] << endl;
+    dijkstra_keep_track(0);
+    vector<int> ans;
+    ans = get_path(V - 1);
+    for (vector<int>::const_iterator i = ans.begin(); i != ans.end(); ++i)
+        cout << *i << ' ';
 }
 
 int main()
