@@ -43,3 +43,6 @@
   * [クラスカル法 p.101](chap2/kruskal-algorithm.cpp)
 * [Roadblocks (POJ No.3255) p.102](chap2/roadblocks.cpp)
 * [Conscription (POJ No.3723) p.103](chap2/conscription.cpp)
+* [Layout (POJ No.3169) p.104](chap2/layout.cpp)
+### 数学的な問題を解くコツ
+* [線分上の格子点の個数 p.107](chap2/count-lattice-points.cpp)
