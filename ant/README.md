@@ -42,3 +42,4 @@
   * [プリム法 p.100](chap2/prim-algorithm.cpp)
   * [クラスカル法 p.101](chap2/kruskal-algorithm.cpp)
 * [Roadblocks (POJ No.3255) p.102](chap2/roadblocks.cpp)
+* [Conscription (POJ No.3723) p.103](chap2/conscription.cpp)
