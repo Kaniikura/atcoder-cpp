@@ -1,7 +1,14 @@
 AtCoderの過去問解答集
 ## AtCoder Beginner Contest
 ### 索引 
-[133](#133), [134](#134), [135](#135), [136](#136), [137](#137), [138](#138), [139](#139), [140](#140)
+[133](#133), [134](#134), [135](#135), [136](#136), [137](#137), [138](#138), [139](#139), [140](#140), [141](#141)
+#### [141](141)
+  - [x] [A. Weather Prediction](141/a.cpp)
+  - [x] [B. Tap Dance](141/b.cpp)
+  - [x] [C. Attack Survival](141/c.cpp)
+  - [x] [D. Powerful Discount Tickets](141/d.cpp)
+  - [ ] [E. Who Says a Pun?]()
+  - [ ] [F. Xor Sum 3]()
 #### [140](140)
   - [x] [A. Password](140/a.cpp)
   - [x] [B. Buffet](140/b.cpp)
