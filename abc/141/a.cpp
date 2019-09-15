@@ -12,9 +12,7 @@ void solve()
     else if (s == "Cloudy")
         ans = "Rainy";
     else
-    {
         ans = "Sunny";
-    }
     cout << ans;
 }
 
