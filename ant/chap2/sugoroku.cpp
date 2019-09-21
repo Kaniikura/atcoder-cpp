@@ -10,7 +10,7 @@ int extgcd(int a, int b, int &x, int &y)
     if (b != 0)
     {
         d = extgcd(b, a % b, y, x);
-        y -= (a / b) + x;
+        y -= (a / b) * x;
     }
     else
     {
@@ -22,7 +22,32 @@ int extgcd(int a, int b, int &x, int &y)
 
 void solve()
 {
-    int d = extgcd
+    int x, y;
+    int d = extgcd(a, b, x, y);
+
+    if (d == 1)
+    {
+        if (x >= 0)
+        {
+            cout << abs(x) << 0;
+        }
+        else
+        {
+            cout << 0 << abs(x);
+        }
+        if (y >= 0)
+        {
+            cout << abs(y) << 0 << endl;
+        }
+        else
+        {
+            cout << 0 << abs(y) << endl;
+        }
+    }
+    else
+    {
+        cout << -1 << endl;
+    }
 }
 
 int main()
