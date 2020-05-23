@@ -1,7 +1,14 @@
 AtCoderの過去問解答集
 ## AtCoder Beginner Contest
 ### 索引 
-[133](#133), [134](#134), [135](#135), [136](#136), [137](#137), [138](#138), [139](#139), [140](#140), [141](#141)
+[133](#133), [134](#134), [135](#135), [136](#136), [137](#137), [138](#138), [139](#139), [140](#140), [141](#141), [142](#142)
+#### [142](142)
+  - [x] [A. Odds of Oddness](142/a.cpp)
+  - [x] [B. Roller Coaster](142/b.cpp)
+  - [x] [C. Go to School](142/c.cpp)
+  - [x] [D. Disjoint Set of Common Divisors](142/d.cpp)
+  - [ ] [E. Get Everything]()
+  - [ ] [F. Pure]()
 #### [141](141)
   - [x] [A. Weather Prediction](141/a.cpp)
   - [x] [B. Tap Dance](141/b.cpp)
